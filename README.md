@@ -63,18 +63,20 @@ En la primera clase se vieron los siguientes conceptos
 <ul>
 
 `Estructuras de datos (Arrays)` > En JavaScript los arrays se declaran de la siguiente forma:
-    [dato1, dato2, dato3, dato4] (Obviamente todo esto puede o no almacenarse en una variable)
-    Y poseen las siguientes propiedades:
-    * Sus indices comienzan en 0 y se accede a ellos así: Array[INDICE]
-    * Puede almacenar cualquier tipo y cantidad de datos
-    * Si se intenta acceder a un indice que no existe retorna `undefined`
-    * Array.length > Retorna la cantidad de elementos presentes en un Array
+[dato1, dato2, dato3, dato4] (Obviamente todo esto puede o no almacenarse en una variable), y poseen las siguientes propiedades:
+<ul>
+    <li>Sus indices comienzan en 0 y se accede a ellos así: Array[INDICE]</li>
+    <li>Puede almacenar cualquier tipo y cantidad de datos</li>
+    <li>Si se intenta acceder a un indice que no existe retorna `undefined`</li>
+    <li>Array.length > Retorna la cantidad de elementos presentes en un Array</li>
+</ul>
 
-    Y los siguientes metodos:
-    * Array.push(DATO) > Agrega `DATO` al final del Array
-    * Array.pop() > Remueve el último objeto del array y lo retorna, en caso de que quiera ser utilizado posteriormente
-    * Array.concat(Array2) > Agrega todos los objetos de `Array2` en `Array`
-
+Y los siguientes metodos:
+<ul>
+<li>Array.push(DATO) > Agrega `DATO` al final del Array</li>
+<li>Array.pop() > Remueve el último objeto del array y lo retorna, en caso de que quiera ser utilizado posteriormente</li>
+<li>Array.concat(Array2) > Agrega todos los objetos de `Array2` en `Array`</li>
+</ul>
 
 
 `Condicionales y comparaciones` > En JavaScript se utiliza la siguiente sintaxis para realizar comparaciones:

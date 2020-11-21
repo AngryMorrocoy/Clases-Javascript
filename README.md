@@ -74,13 +74,14 @@ En la primera clase se vieron los siguientes conceptos
 
 
 `Condicionales y comparaciones` > En JavaScript se utiliza la siguiente sintaxis para realizar comparaciones:
-    `Mayor que` - ">", `a > b` (`a` mayor que `b`)
-    `Menor que` - "<", `a < b` (`a` menor que `b`)
-    `Igual que` - "==", `a == b` (`a` igual a `b`)
-    `Distinto de` - "!=" `a != b` (`a` distinto de `b`)
-    `Mayor o igual que` - ">=" `a >= b` (`a` mayor o igual que `b`)
-    `Menor o igual que` - "<=" `a <= b` (`a` menor o igual que `b`)
-
+        <ul>
+    <li>`Mayor que` - ">", `a > b` (`a` mayor que `b`)</li>
+    <li>`Menor que` - "<", `a < b` (`a` menor que `b`)</li>
+    <li>`Igual que` - "==", `a == b` (`a` igual a `b`)</li>
+    <li>`Distinto de` - "!=" `a != b` (`a` distinto de `b`)</li>
+    <li>`Mayor o igual que` - ">=" `a >= b` (`a` mayor o igual que `b`)</li>
+    <li>`Menor o igual que` - "<=" `a <= b` (`a` menor o igual que `b`)</li>
+        </ul>
     A la hora de las condiciones se vieron las sentencias (Solamente se muestra la sintáxis)
 
     `if | else if | else` >

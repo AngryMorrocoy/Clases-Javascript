@@ -27,6 +27,7 @@ Para instalar estos plugins en ST3 deberemos abrir el editor de texto y presiona
 
 <li> Para la configuración que yo uso: descargar el archivo "Settings" ubicado en la carpeta Sublime Text 3 (En este repositorio). En sublime text 3 ir a "Preferences" > "Settings"; se abrirá una nueva ventana con dos archivos abiertos, en el de la derecha copian el contenido del archivo previamente descargado.</li>
 </ol>
+
 ## Primera Clase
 
 En la primera clase se vieron los siguientes conceptos
@@ -52,6 +53,7 @@ En la primera clase se vieron los siguientes conceptos
            `undefined` - Aparece cuando un valor no ha sido definido
 
 `Operaciones` > En JavaScript se realizan las siguientes operaciones matemáticas:
+
 <ul>
     <li>`Suma` - Se utiliza el signo "+" su sintáxis es `a + b`</li>
     <li>`Resta` - Se utiliza el signo "-" su sintáxis es `a - b`</li>
@@ -59,6 +61,7 @@ En la primera clase se vieron los siguientes conceptos
     <li>`División` - Se utiliza el signo "/" su sintáxis es `a / b`</li>
     <li>`Modulo` - Retorna el resto de una divisón, y se utiliza el signo "%" su sintáxis es `a % b`</li>
 <ul>
+
 `Estructuras de datos (Arrays)` > En JavaScript los arrays se declaran de la siguiente forma:
     [dato1, dato2, dato3, dato4] (Obviamente todo esto puede o no almacenarse en una variable)
     Y poseen las siguientes propiedades:
@@ -112,11 +115,13 @@ En la primera clase se vieron los siguientes conceptos
 
         }
 
-`Menciones honoríficas` > 
-    * console.log(x) > Imprime por consola cual sea el valor de `x`
-    * Concatenación > Cuando se juntan más de dos valores de tipo String usando el operando `+`
+`Menciones honoríficas:` 
+<ul>
+    <li>console.log(x) > Imprime por consola cual sea el valor de `x`</li>
+    <li>Concatenación > Cuando se juntan más de dos valores de tipo String usando el operando `+`
                       En caso de que la concatenación ocurra entre Number y String, el tipo Number se 
-                      convierte automáticamente en String
+                      convierte automáticamente en String</li>
+</ul>
 
 ## Segunda Clase 
 

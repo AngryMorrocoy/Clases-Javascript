@@ -13,20 +13,20 @@ A la hora de descargarlo asegúrense de elegir la opción correspondiente a su S
 Abren el ejecutable, e instalan como cualquier otro programa
 
 ## Configurando Sublime Text 3
+<ol>
+<li> Para programar en JavaScript, usaremos dos plugins `JavaScript Completions` y `BracketHighlighter`
+Para instalar estos plugins en ST3 deberemos abrir el editor de texto y presionar `CTRL+SHIFT+P`</li>
 
-1** Para programar en JavaScript, usaremos dos plugins `JavaScript Completions` y `BracketHighlighter`
-Para instalar estos plugins en ST3 deberemos abrir el editor de texto y presionar `CTRL+SHIFT+P`
+<li> Nos abrirá una especie de "barra de navegación", aquí buscaremos la opción de `Install Package Manger` y damos enter, esperamos un poco hasta que complete la instalación</li>
 
-2** Nos abrirá una especie de "barra de navegación", aquí buscaremos la opción de `Install Package Manger` y damos enter, esperamos un poco hasta que complete la instalación
+<li>Una vez culminado el paso anterior volveremos a presionar `CTRL+SHIFT+P` y esta vez buscaremos `Install Package`, damos enter y esperamos a que busque los plugins disponibles, en este nuevo menú buscaremos primeramente `JavaScript Completions` y damos enter para instalarlo, una vez que termine toda su instalación (el tiempo de instalación puede variar dependiendo de la velocidad del internet, pero no debería tardar más de 30 minutos), para verificar si funciona correctamente, se puede abrir un archivo con código javascript, escribir "console" y ver si intenta autocompletarnos nuestro código.</li>
 
-3** Una vez culminado el paso anterior volveremos a presionar `CTRL+SHIFT+P` y esta vez buscaremos `Install Package`, damos enter y esperamos a que busque los plugins disponibles, en este nuevo menú buscaremos primeramente `JavaScript Completions` y damos enter para instalarlo, una vez que termine toda su instalación (el tiempo de instalación puede variar dependiendo de la velocidad del internet, pero no debería tardar más de 30 minutos), para verificar si funciona correctamente, se puede abrir un archivo con código javascript, escribir "console" y ver si intenta autocompletarnos nuestro código.
+<li> Ahora vamos con el siguiente plugin `BracketHighlighter`, su instalación es exactamente igual a la del plugin anterior, abrimos barra de navegación (`CTRL+SHIFT+P`), buscamos "Install Package" y buscamos "BracketHighlighter" y damos a enter, y esperamos un poco</li>
 
-4** Ahora vamos con el siguiente plugin `BracketHighlighter`, su instalación es exactamente igual a la del plugin anterior, abrimos barra de navegación (`CTRL+SHIFT+P`), buscamos "Install Package" y buscamos "BracketHighlighter" y damos a enter, y esperamos un poco
-:
-5** Para los atajos de teclado, basta con descargar el archivo "Keybindings" ubicado en la carpeta Sublime Text 3 (En este repositorio). En sublime text 3 ir a "Preferences" > "Key Bindings"; Se abrirá una nueva ventana con dos archivos abiertos, en el que se encuentra a la derecha copiaremos todo el contenido del archivo previamente descargado
+<li> Para los atajos de teclado, basta con descargar el archivo "Keybindings" ubicado en la carpeta Sublime Text 3 (En este repositorio). En sublime text 3 ir a "Preferences" > "Key Bindings"; Se abrirá una nueva ventana con dos archivos abiertos, en el que se encuentra a la derecha copiaremos todo el contenido del archivo previamente descargado</li>
 
-6** Para la configuración que yo uso: descargar el archivo "Settings" ubicado en la carpeta Sublime Text 3 (En este repositorio). En sublime text 3 ir a "Preferences" > "Settings"; se abrirá una nueva ventana con dos archivos abiertos, en el de la derecha copian el contenido del archivo previamente descargado.
-
+<li> Para la configuración que yo uso: descargar el archivo "Settings" ubicado en la carpeta Sublime Text 3 (En este repositorio). En sublime text 3 ir a "Preferences" > "Settings"; se abrirá una nueva ventana con dos archivos abiertos, en el de la derecha copian el contenido del archivo previamente descargado.</li>
+</ol>
 ## Primera Clase
 
 En la primera clase se vieron los siguientes conceptos
@@ -52,12 +52,13 @@ En la primera clase se vieron los siguientes conceptos
            `undefined` - Aparece cuando un valor no ha sido definido
 
 `Operaciones` > En JavaScript se realizan las siguientes operaciones matemáticas:
-    `Suma` - Se utiliza el signo "+" su sintáxis es `a + b`
-    `Resta` - Se utiliza el signo "-" su sintáxis es `a - b`
-    `Multiplicación` - Se utiliza el signo "*" su sintáxis es `a * b`
-    `División` - Se utiliza el signo "/" su sintáxis es `a / b`
-    `Modulo` - Retorna el resto de una divisón, y se utiliza el signo "%" su sintáxis es `a % b`
-
+<ul>
+    <li>`Suma` - Se utiliza el signo "+" su sintáxis es `a + b`</li>
+    <li>`Resta` - Se utiliza el signo "-" su sintáxis es `a - b`</li>
+    <li>`Multiplicación` - Se utiliza el signo "*" su sintáxis es `a * b`</li>
+    <li>`División` - Se utiliza el signo "/" su sintáxis es `a / b`</li>
+    <li>`Modulo` - Retorna el resto de una divisón, y se utiliza el signo "%" su sintáxis es `a % b`</li>
+<ul>
 `Estructuras de datos (Arrays)` > En JavaScript los arrays se declaran de la siguiente forma:
     [dato1, dato2, dato3, dato4] (Obviamente todo esto puede o no almacenarse en una variable)
     Y poseen las siguientes propiedades:
@@ -74,14 +75,14 @@ En la primera clase se vieron los siguientes conceptos
 
 
 `Condicionales y comparaciones` > En JavaScript se utiliza la siguiente sintaxis para realizar comparaciones:
-        <ul>
-    <li>`Mayor que` - ">", `a > b` (`a` mayor que `b`)</li>
+<ul>
+    <li>`Mayor que` - ">", `a > b` (`a` mayor que `b`)</li> 
     <li>`Menor que` - "<", `a < b` (`a` menor que `b`)</li>
     <li>`Igual que` - "==", `a == b` (`a` igual a `b`)</li>
     <li>`Distinto de` - "!=" `a != b` (`a` distinto de `b`)</li>
     <li>`Mayor o igual que` - ">=" `a >= b` (`a` mayor o igual que `b`)</li>
     <li>`Menor o igual que` - "<=" `a <= b` (`a` menor o igual que `b`)</li>
-        </ul>
+</ul>
     A la hora de las condiciones se vieron las sentencias (Solamente se muestra la sintáxis)
 
     `if | else if | else` >

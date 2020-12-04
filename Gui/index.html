@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Conversor de distancia</title>
+    <script src="conversorDistancia.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+    <div id="main">
+        <h1 id="titulo">Selecciona la unidad que desea convertir</h1>
+
+        <select id="unidad">
+            <option value='g' onclick="updateOptions()">Peso</option>
+            <option value='m' onclick="updateOptions()">Distancia</option>
+        </select>
+
+        <select id="desde">
+        </select>
+
+        <select id="hacia">
+        </select>
+
+    </div>
+
+    <div id="querys">
+        <input id="user-input" type="entry" onkeyup="calculate()">
+        <p id="result"></p>
+    </div>
+
+    <script>
+        updateOptions()
+    </script>
+
+</body>
+</html>

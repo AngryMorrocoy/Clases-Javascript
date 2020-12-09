@@ -1,0 +1,76 @@
+body {
+  width: 1000px;
+  height: 900px;
+  margin: 0px;
+  padding: 0px;
+  background: #17C4A4;
+}
+
+header {
+  margin: 0px;
+  padding: 3px;
+}
+
+#titular {
+
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-left: 3px;
+
+  background: lightpink;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-left: 3px;
+}
+
+#titulo {
+  font-size: 15px;
+  font-style: italic;
+  font-family: sans-serif;
+  color: red;
+  margin-bottom: 1px;
+}
+
+#subtitulo {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  color: crimson;
+}
+
+nav#clases {
+  display: block;
+  margin: 0px;
+  margin-left: 3px;
+  background: lime;
+}
+
+ul#navegacion {
+  padding: 0px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+}
+
+#nav_item {
+  margin-top: 0px;
+  display: inline;
+  list-style-type: none;
+  font-size: 12px;
+  font-family: fantasy;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+#main {
+  margin: 3px;
+}
+
+
+h1:hgroup#article-header {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+

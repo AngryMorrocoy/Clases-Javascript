@@ -15,9 +15,11 @@
 
 function multiplicacion(variable){
     for (let i=1 ; i<=10 ; i++){
-        document.writeln(`<p>${variable}x${i}=${variable*i}</p>`)
+        document.writeln(`<p-> ${variable} x ${i} = ${variable*i} </p>`)
     }
 }
+let usuario = window.prompt("Dime un numero")
+multiplicacion( usuario )
 
 // # # 
 //  # 
@@ -47,5 +49,3 @@ function calculo(filas, columnas){
     }  
     return chess
 }
-let board = calculo(10, 10);
-console.table(board)
